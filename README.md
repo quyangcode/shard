@@ -19,7 +19,7 @@ queryManager.queryForList(sql,[1],function(err,results){
     //do something
 });
 ```
-tableName 代表表名,在配置文件中配置 具体参考[example](https://github.com/quyangcode/shard/tree/master/examples)
+tableName 代表表名,在配置文件中配置
 
 ####2 queryForSequenceList
 ```js
@@ -63,4 +63,7 @@ queryManager.queryForSortList(idKeySql,pageSql,[1],2,4,'score',false,function(er
 });
 ```
 $ids$ 中间变量，排序后的主键串 必须为此
+
+###配置文件
+参考[example](https://github.com/quyangcode/shard/tree/master/examples)
 
